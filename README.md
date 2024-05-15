@@ -1,8 +1,26 @@
-# React + Vite
+## Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Json Server Link](https://www.npmjs.com/package/json-server)
 
-Currently, two official plugins are available:
+```bash
+npm install json-server
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+package.json file :
+start: json-server --watch db.json --no-cors true  --port 9000
+```
+
+**Start---**
+
+```
+npm start
+```
+
+# used
+
+1. **React**
+2. **React Router Dom**
+3. **Redux**
+4. **Redux Thunk**
+5. **React Toolkit**
